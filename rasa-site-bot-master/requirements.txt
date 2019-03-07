@@ -1,0 +1,11 @@
+Flask
+Flask-Admin
+Flask-Migrate
+Flask-Script
+Flask-SQLAlchemy
+gevent
+numpy
+rasa-nlu
+requests
+scikit-learn
+sklearn_crfsuite

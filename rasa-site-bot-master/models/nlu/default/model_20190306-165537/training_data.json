@@ -1,0 +1,205 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "bk-info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 47,
+            "value": "Ho Chi Minh City University of Technology",
+            "entity": "school-name"
+          }
+        ],
+        "text": "About Ho Chi Minh City University of Technology"
+      },
+      {
+        "intent": "bk-info",
+        "entities": [
+          {
+            "start": 6,
+            "end": 26,
+            "value": "Bach Khoa University",
+            "entity": "school-name"
+          }
+        ],
+        "text": "About Bach Khoa University"
+      },
+      {
+        "intent": "bk-vision",
+        "text": "Vision"
+      },
+      {
+        "intent": "bk-hceres",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "HCERES",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "HCERES"
+      },
+      {
+        "intent": "bk-abet",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "ABET",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "ABET"
+      },
+      {
+        "intent": "bk-aunqa",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "AUN – QA",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "AUN – QA"
+      },
+      {
+        "intent": "bk-programs",
+        "entities": [
+          {
+            "start": 9,
+            "end": 23,
+            "value": "study programs",
+            "entity": "programs"
+          }
+        ],
+        "text": "Areas of study programs"
+      },
+      {
+        "intent": "bk-location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Location",
+            "entity": "location"
+          }
+        ],
+        "text": "Location"
+      },
+      {
+        "intent": "bk-accreditation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "accreditation",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "accreditation"
+      },
+      {
+        "intent": "bk-vision",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Bach Khoa",
+            "entity": "school-name"
+          }
+        ],
+        "text": "tell me about Bach Khoa's visions"
+      },
+      {
+        "intent": "bk-hceres",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "HCERES",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "Bach Khoa's HCERES"
+      },
+      {
+        "intent": "bk-abet",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "ABET",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "Bach Khoa's ABET"
+      },
+      {
+        "intent": "bk-aunqa",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "AUN-QA",
+            "entity": "accreditation"
+          }
+        ],
+        "text": "Bach Khoa's AUN-QA"
+      },
+      {
+        "intent": "bk-programs",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "value": "study programs",
+            "entity": "programs"
+          }
+        ],
+        "text": "Tell me a bout study programs"
+      },
+      {
+        "intent": "bk-location",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "location",
+            "entity": "location"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Bach Khoa",
+            "entity": "school-name"
+          }
+        ],
+        "text": "Tell me about Bach Khoa's location"
+      },
+      {
+        "intent": "bk-accreditation",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "accreditation",
+            "entity": "accreditation"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bach khoa",
+            "entity": "school-name"
+          }
+        ],
+        "text": "tell me about bach khoa's accreditation"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
